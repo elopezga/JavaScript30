@@ -20,6 +20,7 @@ body{
     border: 3px solid grey;
     border-radius: 10px;
     background-color: rgba(211,211,211,0.5);
+    transition: all 0.1s;
 }
 
 .idleKey{
@@ -27,7 +28,11 @@ body{
 }
 
 .activeKey{
+    color: goldenrod;
     opacity: 1.0;
+    transform: scale(1.1);
+    border: 3px solid goldenrod;
+    box-shadow: 0px 0px 10px goldenrod;
 }
 
 kbd{
@@ -40,6 +45,8 @@ span{
     bottom: 10px;
     left: 10%;
     right: 10%;
+    font-size: 1.2rem;
     text-transform: uppercase;
+    letter-spacing: 1px;
     color: goldenrod;
 }
