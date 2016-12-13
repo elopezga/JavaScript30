@@ -1,0 +1,45 @@
+body{
+    padding: 12% 5%;
+    background-image: url('concert.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #020202;
+}
+
+.keyrow{
+    margin: auto auto;
+    padding: 1% 0%;
+    text-align: center;
+}
+.key{
+    margin: auto 2px;
+    position: relative;
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    border: 3px solid grey;
+    border-radius: 10px;
+    background-color: rgba(211,211,211,0.5);
+}
+
+.idleKey{
+    opacity: 0.5;
+}
+
+.activeKey{
+    opacity: 1.0;
+}
+
+kbd{
+    display: block;
+    font-size: 40px;
+}
+
+span{
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    right: 10%;
+    text-transform: uppercase;
+    color: goldenrod;
+}
