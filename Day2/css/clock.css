@@ -1,0 +1,42 @@
+.clock-face{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+
+    position: relative;
+
+    border: 20px solid black;
+    border-radius: 50%;
+}
+
+.hand{
+    background-color: black;
+    height: 5px;
+    position: absolute;
+
+    /*
+    transform-origin: 100%;
+    transform: translate(250px, 250px);
+    */
+    top: 50%;
+    left: 50%;
+
+    transform-origin: left;
+    transition: all 0.5s;
+    transform: rotate(0deg);
+    transition-timing-function: cubic-bezier(0.24, 1.88, 0.17, 0.75);
+}
+
+.hour-hand{
+    background-color: deeppink;
+    width: 35%;
+}
+
+.minute-hand{
+    background-color: blueviolet;
+    width: 40%;
+}
+
+.second-hand{
+    width: 45%;
+}
