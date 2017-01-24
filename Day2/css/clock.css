@@ -30,13 +30,22 @@
 .hour-hand{
     background-color: deeppink;
     width: 35%;
+
+    /* rotate around center of clock handle */
+    transform: rotate(0deg);
 }
 
 .minute-hand{
     background-color: blueviolet;
     width: 40%;
+
+    /* rotate around center of clock handle */
+    transform: rotate(0deg);
 }
 
 .second-hand{
     width: 45%;
+
+    /* rotate around center of clock handle */
+    transform: rotate(0deg);
 }
